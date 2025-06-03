@@ -4,11 +4,18 @@ import { useTranslations } from 'next-intl';
 import React from 'react';
 import ServiceCard from '../ui/ServiceCard';
 
+type Service = {
+    id: string;
+    title: string;
+    description: string;
+    icon: keyof typeof import('lucide-react');
+};
+
 const ServicesSection: React.FC = () => {
     const t = useTranslations('services');
 
     // Les services sont définis directement depuis les traductions
-    const services = [
+    const services: Service[] = [
         {
             id: 'chatbots',
             title: t('items.chatbots.title'),
@@ -52,7 +59,7 @@ const ServicesSection: React.FC = () => {
                             <ServiceCard
                                 title={service.title}
                                 description={service.description}
-                                icon={service.icon as any}
+                                icon={service.icon}
                             />
                         </div>
                     ))}

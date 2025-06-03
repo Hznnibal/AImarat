@@ -12,7 +12,7 @@ type ServiceCardProps = {
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon }) => {
     const t = useTranslations('services');
-    const Icon = LucideIcons[icon];
+    const Icon = LucideIcons[icon] as React.FC<LucideIcons.LucideProps>;
 
     return (
         <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border-t-4 border-primary h-full flex flex-col">

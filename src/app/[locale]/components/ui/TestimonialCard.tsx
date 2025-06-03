@@ -1,4 +1,5 @@
 import * as LucideIcons from 'lucide-react';
+import Image from 'next/image';
 import React from 'react';
 
 type TestimonialCardProps = {
@@ -7,6 +8,7 @@ type TestimonialCardProps = {
     content: string;
     avatar: string;
 };
+
 
 const TestimonialCard: React.FC<TestimonialCardProps> = ({ name, company, content, avatar }) => {
     return (
@@ -19,9 +21,11 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({ name, company, conten
             </div>
 
             <div className="flex items-center mt-4 pt-4 border-t border-gray-100">
-                <img
+                <Image
                     src={avatar}
                     alt={name}
+                    width={100}
+                    height={100}
                     className="w-12 h-12 rounded-full object-cover mr-4"
                 />
                 <div>

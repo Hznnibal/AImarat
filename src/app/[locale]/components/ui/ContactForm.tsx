@@ -39,7 +39,7 @@ const ContactForm: React.FC = () => {
                 const data = await res.json();
                 setSubmitMessage(data.message || 'Erreur lors de l\'envoi.');
             }
-        } catch (error) {
+        } catch {
             setSubmitMessage('Erreur réseau.');
         } finally {
             setIsSubmitting(false);
