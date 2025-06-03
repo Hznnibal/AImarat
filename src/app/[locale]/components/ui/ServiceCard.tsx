@@ -1,4 +1,7 @@
+'use client';
+
 import * as LucideIcons from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import React from 'react';
 
 type ServiceCardProps = {
@@ -8,6 +11,7 @@ type ServiceCardProps = {
 };
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon }) => {
+    const t = useTranslations('services');
     const Icon = LucideIcons[icon];
 
     return (
@@ -24,7 +28,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon }) =
 
             <div className="mt-4 pt-4 border-t border-gray-100">
                 <a href="#demo" className="text-primary font-medium flex items-center group">
-                    En savoir plus
+                    {t('learnMore')}
                     <LucideIcons.ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </a>
             </div>

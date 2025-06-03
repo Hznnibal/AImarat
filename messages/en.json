@@ -1,0 +1,103 @@
+{
+  "header": {
+    "offers": "Offers",
+    "demo": "Demo",
+    "contact": "Contact",
+    "requestDemo": "Request a Demo"
+  },
+  "hero": {
+    "title": "Simplify your business,",
+    "titleHighlight": "amplify your results",
+    "subtitle": "Custom artificial intelligence solutions to transform your business and automate your business processes.",
+    "cta": {
+      "services": "Discover our services",
+      "demo": "Request a demo"
+    }
+  },
+  "services": {
+    "title": "Our main",
+    "titleHighlight": "offers",
+    "subtitle": "Intelligent and innovative solutions to meet your business's specific needs.",
+    "items": {
+      "chatbots": {
+        "title": "Intelligent Chatbots",
+        "description": "Personalized virtual assistants that understand your customers and respond to their needs in real-time."
+      },
+      "automation": {
+        "title": "Business Automation",
+        "description": "Optimize your internal processes and reduce repetitive tasks with our custom automation solutions."
+      },
+      "ai": {
+        "title": "Custom AI",
+        "description": "Artificial intelligence solutions tailored to your specific needs to transform your business."
+      }
+    },
+    "learnMore": "Learn more"
+  },
+  "demo": {
+    "title": "Try our solution",
+    "subtitle": "Discover how our AI solutions can transform your business. Request a personalized demonstration tailored to your specific needs.",
+    "benefits": {
+      "presentation": "Custom presentation",
+      "cases": "Concrete use cases",
+      "estimation": "Potential benefits estimation"
+    },
+    "form": {
+      "title": "Request your demo",
+      "subtitle": "Fill out the form below and our team will contact you within 24 hours.",
+      "company": "Company name",
+      "name": "Full name",
+      "email": "Professional email",
+      "phone": "Phone",
+      "submit": "Book my demo"
+    }
+  },
+  "testimonials": {
+    "title": "What our",
+    "titleHighlight": "clients",
+    "subtitle": "say",
+    "description": "Discover how our solutions have transformed our clients' daily operations and improved their performance.",
+    "items": {
+      "1": {
+        "name": "Sophie Martin",
+        "company": "TechInnovate",
+        "content": "AImarat's chatbot solution revolutionized our customer service, reducing tickets by 40% and increasing customer satisfaction."
+      },
+      "2": {
+        "name": "Thomas Dubois",
+        "company": "FinanceSolutions",
+        "content": "Thanks to the automation implemented by AImarat, we saved valuable time on our daily processes."
+      },
+      "3": {
+        "name": "Claire Leroy",
+        "company": "E-commerce Plus",
+        "content": "The custom AI developed by AImarat helped us improve our sales forecasts by 35%. A valuable partnership."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "your@email.com",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Thank you for your message. We will contact you soon."
+    }
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "links": {
+      "services": "Our services",
+      "demo": "Request a demo",
+      "legal": "Legal notice",
+      "privacy": "Privacy policy"
+    },
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}

@@ -1,9 +1,13 @@
-'use client'
+'use client';
 
+import { useTranslations } from 'next-intl';
 import React, { useEffect, useRef } from 'react';
 import ContactForm from '../ui/ContactForm';
 
 const HeroSection: React.FC = () => {
+    const t = useTranslations('hero');
+    const tContact = useTranslations('contact');
+
     const heroRef = useRef<HTMLElement>(null);
 
     useEffect(() => {
@@ -35,11 +39,12 @@ const HeroSection: React.FC = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div className="text-white" data-aos="fade-up">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-                            Simplifiez votre business, <span className="text-primary">amplifiez vos résultats</span>
+                            {t('title')}{' '}
+                            <span className="text-primary">{t('titleHighlight')}</span>
                         </h1>
 
                         <p className="text-lg md:text-xl opacity-90 mb-8 max-w-xl">
-                            Des solutions d'intelligence artificielle sur mesure pour transformer votre entreprise et automatiser vos processus métier.
+                            {t('subtitle')}
                         </p>
 
                         <div className="flex flex-wrap gap-4">
@@ -47,13 +52,13 @@ const HeroSection: React.FC = () => {
                                 href="#services"
                                 className="bg-primary hover:bg-primary-dark text-white font-medium px-6 py-3 rounded-md transition-all duration-300 inline-flex items-center"
                             >
-                                Découvrir nos services
+                                {t('cta.services')}
                             </a>
                             <a
                                 href="#demo"
                                 className="bg-transparent border border-white text-white font-medium px-6 py-3 rounded-md hover:bg-white/10 transition-all duration-300 inline-flex items-center"
                             >
-                                Demander une démo
+                                {t('cta.demo')}
                             </a>
                         </div>
                     </div>
@@ -63,7 +68,7 @@ const HeroSection: React.FC = () => {
                         data-aos="fade-up"
                         data-aos-delay="200"
                     >
-                        <h2 className="text-2xl font-bold mb-6 text-neutral-black">Contactez-nous</h2>
+                        <h2 className="text-2xl font-bold mb-6 text-neutral-black">{tContact('title')}</h2>
                         <ContactForm />
                     </div>
                 </div>

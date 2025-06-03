@@ -1,0 +1,104 @@
+{
+  "header": {
+    "offers": "Offres",
+    "demo": "Démo",
+    "contact": "Contact",
+    "requestDemo": "Demander une démo"
+  },
+  "hero": {
+    "title": "Simplifiez votre business,",
+    "titleHighlight": "amplifiez vos résultats",
+    "subtitle": "Des solutions d'intelligence artificielle sur mesure pour transformer votre entreprise et automatiser vos processus métier.",
+    "cta": {
+      "services": "Découvrir nos services",
+      "demo": "Demander une démo"
+    }
+  },
+  "services": {
+    "title": "Nos",
+    "titleHighlight": "offres",
+    "subtitle": "principales",
+    "description": "Des solutions intelligentes et innovantes pour répondre aux besoins spécifiques de votre entreprise.",
+    "items": {
+      "chatbots": {
+        "title": "Chatbots intelligents",
+        "description": "Des assistants virtuels personnalisés qui comprennent vos clients et répondent à leurs besoins en temps réel."
+      },
+      "automation": {
+        "title": "Automatisation métier",
+        "description": "Optimisez vos processus internes et réduisez les tâches répétitives grâce à nos solutions d'automatisation sur mesure."
+      },
+      "ai": {
+        "title": "IA sur mesure",
+        "description": "Des solutions d'intelligence artificielle adaptées à vos besoins spécifiques pour transformer votre entreprise."
+      }
+    },
+    "learnMore": "En savoir plus"
+  },
+  "demo": {
+    "title": "Essayez notre solution",
+    "subtitle": "Découvrez comment nos solutions d'IA peuvent transformer votre entreprise. Demandez une démonstration personnalisée adaptée à vos besoins spécifiques.",
+    "benefits": {
+      "presentation": "Présentation sur mesure",
+      "cases": "Cas d'usage concrets",
+      "estimation": "Estimation des bénéfices potentiels"
+    },
+    "form": {
+      "title": "Demandez votre démo",
+      "subtitle": "Remplissez le formulaire ci-dessous et notre équipe vous contactera dans les 24 heures.",
+      "company": "Nom de l'entreprise",
+      "name": "Nom et prénom",
+      "email": "Email professionnel",
+      "phone": "Téléphone",
+      "submit": "Réserver ma démo"
+    }
+  },
+  "testimonials": {
+    "title": "Ce que nos",
+    "titleHighlight": "clients",
+    "subtitle": "disent",
+    "description": "Découvrez comment nos solutions ont transformé le quotidien de nos clients et amélioré leurs performances.",
+    "items": {
+      "1": {
+        "name": "Sophie Martin",
+        "company": "TechInnovate",
+        "content": "La solution de chatbot d'AImarat a révolutionné notre service client, avec une réduction de 40% des tickets et une satisfaction client en hausse."
+      },
+      "2": {
+        "name": "Thomas Dubois",
+        "company": "FinanceSolutions",
+        "content": "Grâce à l'automatisation mise en place par AImarat, nous avons gagné un temps précieux sur nos processus quotidiens."
+      },
+      "3": {
+        "name": "Claire Leroy",
+        "company": "E-commerce Plus",
+        "content": "L'IA sur mesure développée par AImarat nous a permis d'améliorer nos prédictions de vente de 35%. Un partenariat précieux."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "namePlaceholder": "Votre nom",
+      "emailPlaceholder": "votre@email.com",
+      "messagePlaceholder": "Comment pouvons-nous vous aider?",
+      "submit": "Envoyer",
+      "sending": "Envoi en cours...",
+      "success": "Merci pour votre message. Nous vous contacterons prochainement."
+    }
+  },
+  "footer": {
+    "quickLinks": "Liens Rapides",
+    "links": {
+      "services": "Nos services",
+      "demo": "Demander une démo",
+      "legal": "Mentions légales",
+      "privacy": "Politique de confidentialité"
+    },
+    "contact": "Contact",
+    "rights": "Tous droits réservés."
+  }
+}

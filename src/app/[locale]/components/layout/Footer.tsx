@@ -1,7 +1,9 @@
 import { Facebook, Linkedin, Mail, Phone, Twitter } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import React from 'react';
 
 const Footer: React.FC = () => {
+    const t = useTranslations();
     const currentYear = new Date().getFullYear();
 
     return (
@@ -12,7 +14,7 @@ const Footer: React.FC = () => {
                     <div>
                         <h2 className="text-2xl font-bold text-primary mb-4">AImarat</h2>
                         <p className="text-neutral-gray mb-4 max-w-xs">
-                            Solutions d'intelligence artificielle sur mesure pour simplifier votre business et amplifier vos résultats.
+                            {t('hero.subtitle')}
                         </p>
                         <div className="flex space-x-4">
                             <a href="#" className="text-white hover:text-primary transition-colors">
@@ -29,26 +31,38 @@ const Footer: React.FC = () => {
 
                     {/* Quick Links */}
                     <div>
-                        <h3 className="text-lg font-semibold mb-4">Liens Rapides</h3>
+                        <h3 className="text-lg font-semibold mb-4">
+                            {t('footer.quickLinks')}
+                        </h3>
                         <ul className="space-y-2">
                             <li>
-                                <a href="#services" className="text-neutral-gray hover:text-primary transition-colors">Nos services</a>
+                                <a href="#services" className="text-neutral-gray hover:text-primary transition-colors">
+                                    {t('footer.links.services')}
+                                </a>
                             </li>
                             <li>
-                                <a href="#demo" className="text-neutral-gray hover:text-primary transition-colors">Demander une démo</a>
+                                <a href="#demo" className="text-neutral-gray hover:text-primary transition-colors">
+                                    {t('footer.links.demo')}
+                                </a>
                             </li>
                             <li>
-                                <a href="#" className="text-neutral-gray hover:text-primary transition-colors">Mentions légales</a>
+                                <a href="#" className="text-neutral-gray hover:text-primary transition-colors">
+                                    {t('footer.links.legal')}
+                                </a>
                             </li>
                             <li>
-                                <a href="#" className="text-neutral-gray hover:text-primary transition-colors">Politique de confidentialité</a>
+                                <a href="#" className="text-neutral-gray hover:text-primary transition-colors">
+                                    {t('footer.links.privacy')}
+                                </a>
                             </li>
                         </ul>
                     </div>
 
                     {/* Contact */}
                     <div>
-                        <h3 className="text-lg font-semibold mb-4">Contact</h3>
+                        <h3 className="text-lg font-semibold mb-4">
+                            {t('footer.contact')}
+                        </h3>
                         <ul className="space-y-3">
                             <li className="flex items-center">
                                 <Mail size={18} className="mr-2 text-primary" />
@@ -67,7 +81,7 @@ const Footer: React.FC = () => {
                 </div>
 
                 <div className="mt-8 pt-8 border-t border-gray-800 text-center text-neutral-gray">
-                    <p>&copy; {currentYear} AImarat. Tous droits réservés.</p>
+                    <p>&copy; {currentYear} AImarat. {t('footer.rights')}</p>
                 </div>
             </div>
         </footer>

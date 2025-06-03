@@ -1,12 +1,14 @@
 'use client'
 
 import { Menu, X } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import React, { useEffect, useState } from 'react';
 import Button from '../ui/Button';
 
 const Header: React.FC = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const t = useTranslations('header');
 
     useEffect(() => {
         const handleScroll = () => {
@@ -18,14 +20,13 @@ const Header: React.FC = () => {
     }, []);
 
     const navItems = [
-        { label: 'Offres', href: '#services' },
-        { label: 'Démo', href: '#demo' },
-        { label: 'Contact', href: '#contact' },
+        { label: t('offers'), href: '#services' },
+        { label: t('demo'), href: '#demo' },
+        { label: t('contact'), href: '#contact' },
     ];
 
     return (
-        <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'
-            }`}>
+        <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'}`}>
             <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
                 {/* Logo */}
                 <a href="#" className="flex items-center">
@@ -38,16 +39,15 @@ const Header: React.FC = () => {
                 <nav className="hidden md:flex items-center space-x-8">
                     {navItems.map((item) => (
                         <a
-                            key={item.label}
+                            key={item.href}
                             href={item.href}
-                            className={`font-medium hover:text-primary transition-colors ${isScrolled ? 'text-neutral-darkGray' : 'text-white'
-                                }`}
+                            className={`font-medium hover:text-primary transition-colors ${isScrolled ? 'text-neutral-darkGray' : 'text-white'}`}
                         >
                             {item.label}
                         </a>
                     ))}
                     <Button variant={isScrolled ? 'primary' : 'outline'} size="md">
-                        Demander une démo
+                        {t('requestDemo')}
                     </Button>
                 </nav>
 
@@ -66,7 +66,7 @@ const Header: React.FC = () => {
                     <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
                         {navItems.map((item) => (
                             <a
-                                key={item.label}
+                                key={item.href}
                                 href={item.href}
                                 className="text-neutral-darkGray font-medium py-2 hover:text-primary transition-colors"
                                 onClick={() => setIsMobileMenuOpen(false)}
@@ -75,7 +75,7 @@ const Header: React.FC = () => {
                             </a>
                         ))}
                         <Button variant="primary" size="md" className="w-full">
-                            Demander une démo
+                            {t('requestDemo')}
                         </Button>
                     </div>
                 </div>
