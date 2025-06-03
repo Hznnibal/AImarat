@@ -1,0 +1,105 @@
+import React, { useState } from 'react';
+import Button from './Button';
+
+const ContactForm: React.FC = () => {
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: '',
+    });
+
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submitMessage, setSubmitMessage] = useState('');
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const { name, value } = e.target;
+        setFormData((prev) => ({ ...prev, [name]: value }));
+    };
+
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        setIsSubmitting(true);
+
+        // Simulate form submission
+        setTimeout(() => {
+            setIsSubmitting(false);
+            setSubmitMessage('Merci pour votre message. Nous vous contacterons prochainement.');
+            setFormData({ name: '', email: '', message: '' });
+
+            // Clear success message after 5 seconds
+            setTimeout(() => {
+                setSubmitMessage('');
+            }, 5000);
+        }, 1000);
+    };
+
+    return (
+        <form onSubmit={handleSubmit} className="w-full space-y-4">
+            <div>
+                <label htmlFor="name" className="block text-sm font-medium text-neutral-darkGray mb-1">
+                    Nom
+                </label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition"
+                    placeholder="Votre nom"
+                />
+            </div>
+
+            <div>
+                <label htmlFor="email" className="block text-sm font-medium text-neutral-darkGray mb-1">
+                    Email
+                </label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition"
+                    placeholder="votre@email.com"
+                />
+            </div>
+
+            <div>
+                <label htmlFor="message" className="block text-sm font-medium text-neutral-darkGray mb-1">
+                    Message
+                </label>
+                <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                    rows={4}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition"
+                    placeholder="Comment pouvons-nous vous aider?"
+                />
+            </div>
+
+            <Button
+                type="submit"
+                variant="primary"
+                size="lg"
+                className="w-full"
+                onClick={() => { }}
+            >
+                {isSubmitting ? 'Envoi en cours...' : 'Envoyer'}
+            </Button>
+
+            {submitMessage && (
+                <div className="p-3 bg-green-50 text-green-800 rounded-md text-sm">
+                    {submitMessage}
+                </div>
+            )}
+        </form>
+    );
+};
+
+export default ContactForm;
