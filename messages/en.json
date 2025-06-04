@@ -99,5 +99,140 @@
     },
     "contact": "Contact",
     "rights": "All rights reserved."
+  },
+  "ai": {
+    "hero": {
+      "title": "Custom Artificial Intelligence Solutions",
+      "description": "Transform your business with innovative AI solutions designed to meet your specific needs.",
+      "cta": "Discover our solutions"
+    },
+    "capabilities": {
+      "prediction": {
+        "title": "Smart Prediction",
+        "description": "Anticipate trends and make informed decisions with predictive analytics."
+      },
+      "personalization": {
+        "title": "Advanced Personalization",
+        "description": "Deliver tailored experiences to your customers through AI."
+      },
+      "analysis": {
+        "title": "Data Analysis",
+        "description": "Harness the power of your data with sophisticated algorithms."
+      }
+    },
+    "applications": {
+      "title": "AI Applications",
+      "vision": {
+        "title": "Computer Vision",
+        "description": "Image and video analysis for object detection and facial recognition."
+      },
+      "language": {
+        "title": "Language Processing",
+        "description": "Text analysis, machine translation, and content generation."
+      },
+      "prediction": {
+        "title": "Predictive Analysis",
+        "description": "Trend forecasting and business process optimization."
+      },
+      "recommendation": {
+        "title": "Recommendation",
+        "description": "Personalized recommendation systems for your customers."
+      }
+    },
+    "cta": {
+      "title": "Ready to harness the power of AI?",
+      "description": "Discover how our AI solutions can transform your business.",
+      "button": "Request a demo"
+    }
+  },
+  "automation": {
+    "hero": {
+      "title": "Smart business process automation",
+      "description": "Transform your operations with tailored automation solutions that optimize your workflows and increase efficiency.",
+      "cta": "Explore our solutions"
+    },
+    "benefits": {
+      "time": {
+        "title": "Time saving",
+        "description": "Automate repetitive tasks to free up your teams."
+      },
+      "productivity": {
+        "title": "Increased productivity",
+        "description": "Optimize your processes for better performance."
+      },
+      "accuracy": {
+        "title": "Error reduction",
+        "description": "Minimize human errors through automation."
+      }
+    },
+    "solutions": {
+      "title": "Our automation solutions",
+      "hr": {
+        "title": "HR Automation",
+        "description": "Simplify recruitment, onboarding, and HR document management."
+      },
+      "finance": {
+        "title": "Finance Automation",
+        "description": "Optimize billing, accounting, and financial reporting."
+      },
+      "marketing": {
+        "title": "Marketing Automation",
+        "description": "Automate your marketing campaigns and lead management."
+      },
+      "it": {
+        "title": "IT Automation",
+        "description": "Simplify ticket management and system maintenance."
+      }
+    },
+    "cta": {
+      "title": "Ready to automate your processes?",
+      "description": "Discover how our automation expertise can transform your business.",
+      "button": "Request a demo"
+    }
+  },
+  "chatbot": {
+    "hero": {
+      "title": "Smart chatbots for an exceptional customer experience",
+      "description": "Automate your customer service with 24/7 virtual assistants, able to understand and respond to your clients in real time.",
+      "cta": "Discover our solutions"
+    },
+    "features": {
+      "engagement": {
+        "title": "24/7 Customer Engagement",
+        "description": "Automated assistance always available to answer your customers' questions."
+      },
+      "instant": {
+        "title": "Instant Responses",
+        "description": "Immediate handling of common queries for optimal customer satisfaction."
+      },
+      "analytics": {
+        "title": "Detailed Analytics",
+        "description": "Valuable insights on customer interactions to improve your service."
+      }
+    },
+    "usecases": {
+      "title": "Use Cases",
+      "support": {
+        "title": "Customer Support",
+        "description": "Automated answers to FAQs, order tracking, and 24/7 assistance."
+      },
+      "leads": {
+        "title": "Lead Generation",
+        "description": "Qualifying prospects and collecting information for your sales team."
+      },
+      "tech": {
+        "title": "Tech Support",
+        "description": "Initial diagnosis of issues and answers to common technical questions."
+      },
+      "booking": {
+        "title": "Bookings",
+        "description": "Automated management of appointments and reservations for your business."
+      }
+    },
+    "cta": {
+      "title": "Ready to transform your customer service?",
+      "description": "Discover how our smart chatbots can enhance your customer relationships.",
+      "button": "Request a demo"
+    }
   }
 }

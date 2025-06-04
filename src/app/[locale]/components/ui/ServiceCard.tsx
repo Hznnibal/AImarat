@@ -8,9 +8,10 @@ type ServiceCardProps = {
     title: string;
     description: string;
     icon: keyof typeof LucideIcons;
+    link: string; // nouvelle prop pour le lien
 };
 
-const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon }) => {
+const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon, link }) => {
     const t = useTranslations('services');
     const Icon = LucideIcons[icon] as React.FC<LucideIcons.LucideProps>;
 
@@ -27,7 +28,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ title, description, icon }) =
             </p>
 
             <div className="mt-4 pt-4 border-t border-gray-100">
-                <a href="#demo" className="text-primary font-medium flex items-center group">
+                <a href={link} className="text-primary font-medium flex items-center group">
                     {t('learnMore')}
                     <LucideIcons.ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </a>

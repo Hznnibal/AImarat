@@ -2,6 +2,7 @@
 
 import { Menu, X } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import Button from '../ui/Button';
 
@@ -29,11 +30,11 @@ const Header: React.FC = () => {
         <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'}`}>
             <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
                 {/* Logo */}
-                <a href="#" className="flex items-center">
+                <Link href="/" className="flex items-center">
                     <h1 className={`text-2xl font-bold ${isScrolled ? 'text-primary' : 'text-white'}`}>
                         AImarat
                     </h1>
-                </a>
+                </Link>
 
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex items-center space-x-8">

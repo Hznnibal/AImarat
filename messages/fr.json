@@ -100,5 +100,140 @@
     },
     "contact": "Contact",
     "rights": "Tous droits réservés."
+  },
+  "ai": {
+    "hero": {
+      "title": "Solutions d'Intelligence Artificielle sur mesure",
+      "description": "Transformez votre entreprise avec des solutions d'IA innovantes, conçues pour répondre à vos besoins spécifiques.",
+      "cta": "Découvrir nos solutions"
+    },
+    "capabilities": {
+      "prediction": {
+        "title": "Prédiction intelligente",
+        "description": "Anticipez les tendances et prenez des décisions éclairées grâce à l'analyse prédictive."
+      },
+      "personalization": {
+        "title": "Personnalisation avancée",
+        "description": "Offrez des expériences sur mesure à vos clients grâce à l'IA."
+      },
+      "analysis": {
+        "title": "Analyse de données",
+        "description": "Exploitez la puissance de vos données avec des algorithmes sophistiqués."
+      }
+    },
+    "applications": {
+      "title": "Applications de l'IA",
+      "vision": {
+        "title": "Vision par ordinateur",
+        "description": "Analyse d'images et de vidéos pour la détection d'objets et la reconnaissance faciale."
+      },
+      "language": {
+        "title": "Traitement du langage",
+        "description": "Analyse de texte, traduction automatique et génération de contenu."
+      },
+      "prediction": {
+        "title": "Analyse prédictive",
+        "description": "Prévision des tendances et optimisation des processus métier."
+      },
+      "recommendation": {
+        "title": "Recommandation",
+        "description": "Systèmes de recommandation personnalisés pour vos clients."
+      }
+    },
+    "cta": {
+      "title": "Prêt à exploiter la puissance de l'IA ?",
+      "description": "Découvrez comment nos solutions d'IA peuvent transformer votre entreprise.",
+      "button": "Demander une démo"
+    }
+  },
+  "automation": {
+    "hero": {
+      "title": "Automatisation intelligente des processus métier",
+      "description": "Transformez vos opérations avec des solutions d'automatisation sur mesure qui optimisent vos processus et augmentent votre efficacité.",
+      "cta": "Explorer nos solutions"
+    },
+    "benefits": {
+      "time": {
+        "title": "Gain de temps",
+        "description": "Automatisez les tâches répétitives pour libérer vos équipes."
+      },
+      "productivity": {
+        "title": "Productivité accrue",
+        "description": "Optimisez vos processus pour de meilleures performances."
+      },
+      "accuracy": {
+        "title": "Réduction des erreurs",
+        "description": "Minimisez les erreurs humaines grâce à l'automatisation."
+      }
+    },
+    "solutions": {
+      "title": "Nos solutions d'automatisation",
+      "hr": {
+        "title": "Automatisation RH",
+        "description": "Simplifiez le recrutement, l'onboarding et la gestion des documents RH."
+      },
+      "finance": {
+        "title": "Automatisation Finance",
+        "description": "Optimisez la facturation, la comptabilité et le reporting financier."
+      },
+      "marketing": {
+        "title": "Automatisation Marketing",
+        "description": "Automatisez vos campagnes marketing et la gestion des leads."
+      },
+      "it": {
+        "title": "Automatisation IT",
+        "description": "Simplifiez la gestion des tickets et la maintenance des systèmes."
+      }
+    },
+    "cta": {
+      "title": "Prêt à automatiser vos processus ?",
+      "description": "Découvrez comment notre expertise en automatisation peut transformer votre entreprise.",
+      "button": "Demander une démo"
+    }
+  },
+  "chatbot": {
+    "hero": {
+      "title": "Chatbots intelligents pour une expérience client exceptionnelle",
+      "description": "Automatisez votre service client avec des assistants virtuels disponibles 24/7, capables de comprendre et de répondre aux besoins de vos clients en temps réel.",
+      "cta": "Découvrir nos solutions"
+    },
+    "features": {
+      "engagement": {
+        "title": "Engagement client 24/7",
+        "description": "Assistance automatisée disponible en permanence pour répondre aux questions de vos clients."
+      },
+      "instant": {
+        "title": "Réponses instantanées",
+        "description": "Traitement immédiat des demandes courantes pour une satisfaction client optimale."
+      },
+      "analytics": {
+        "title": "Analyses détaillées",
+        "description": "Insights précieux sur les interactions clients pour améliorer votre service."
+      }
+    },
+    "usecases": {
+      "title": "Cas d'utilisation",
+      "support": {
+        "title": "Service Client",
+        "description": "Réponses automatisées aux questions fréquentes, suivi des commandes et assistance 24/7."
+      },
+      "leads": {
+        "title": "Lead Generation",
+        "description": "Qualification des prospects et collecte d'informations pour votre équipe commerciale."
+      },
+      "tech": {
+        "title": "Support Technique",
+        "description": "Diagnostic initial des problèmes et solutions aux questions techniques courantes."
+      },
+      "booking": {
+        "title": "Réservations",
+        "description": "Gestion automatisée des rendez-vous et des réservations pour votre entreprise."
+      }
+    },
+    "cta": {
+      "title": "Prêt à transformer votre service client ?",
+      "description": "Découvrez comment nos chatbots intelligents peuvent améliorer votre relation client.",
+      "button": "Demander une démo"
+    }
   }
 }

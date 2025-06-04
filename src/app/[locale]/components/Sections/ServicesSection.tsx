@@ -21,6 +21,7 @@ const ServicesSection: React.FC = () => {
             title: t('items.chatbots.title'),
             description: t('items.chatbots.description'),
             icon: 'MessageSquare',
+
         },
         {
             id: 'automation',
@@ -60,6 +61,7 @@ const ServicesSection: React.FC = () => {
                                 title={service.title}
                                 description={service.description}
                                 icon={service.icon}
+                                link={`/${service.id}`}
                             />
                         </div>
                     ))}
