@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://a-imarat.com/sitemap.xml
+Sitemap: https://wwww.a-imarat.com/sitemap.xml
