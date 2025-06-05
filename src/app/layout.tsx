@@ -107,7 +107,7 @@ export const metadata: Metadata = {
     },
 
     verification: {
-        google: 'google-site-verification=KPdgvBymh5L5UMgx60hFMmr0asnZnPb4sPpp9kHWeBs',
+        google: 'google-site-verification=lbh9qFBojAKaWVxVPv9B2X6zsUcrUOEXezKIQGWNxKI',
     },
 
     icons: {
