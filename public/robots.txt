@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
-Sitemap: https://www.a-imarat.com/sitemap.xml
+# Host
+Host: https://a-imarat.com
+
+# Sitemaps
+Sitemap: https://a-imarat.com/sitemap.xml
