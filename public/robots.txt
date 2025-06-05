@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://a-imarat.com
+Host: https://www.a-imarat.com
 
 # Sitemaps
-Sitemap: https://a-imarat.com/sitemap.xml
+Sitemap: https://www.a-imarat.com/sitemap.xml
