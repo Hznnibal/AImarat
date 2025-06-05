@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://a-imarat.com/</loc></url>
+  <url><loc>https://a-imarat.com/en</loc></url>
+  <url><loc>https://a-imarat.com/fr</loc></url>
+  <url><loc>https://a-imarat.com/ar</loc></url>
+</urlset>
