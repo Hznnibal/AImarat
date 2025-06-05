@@ -1,9 +1,4 @@
-# *
 User-agent: *
 Allow: /
 
-# Host
-Host: https://a-imarat.vercel.app
-
-# Sitemaps
-Sitemap: https://a-imarat.vercel.app/sitemap.xml
+Sitemap: https://a-imarat.com/sitemap.xml
