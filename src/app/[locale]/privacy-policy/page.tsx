@@ -31,7 +31,7 @@ const PrivacyPolicy: React.FC = () => {
                 <h2>{t("privacy.sections.rights.title")}</h2>
                 {/* IMPORTANT : on enlève le <p> autour */}
                 {t.rich("privacy.sections.rights.content", {
-                    email: (chunk) => <a href={`mailto:${contactEmail}`}>{contactEmail}</a>,
+                    email: () => <a href={`mailto:${contactEmail}`}>{contactEmail}</a>,
                 })}
             </section>
 
