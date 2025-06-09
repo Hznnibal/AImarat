@@ -234,5 +234,32 @@
       "description": "Discover how our smart chatbots can enhance your customer relationships.",
       "button": "Request a demo"
     }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: June 2025",
+    "sections": {
+      "information": {
+        "title": "1. Information We Collect",
+        "content": "We collect personal information that you voluntarily provide to us when you submit a lead generation form on our website, including your name, email address, job title, and company name."
+      },
+      "usage": {
+        "title": "2. How We Use Your Information",
+        "content": "We use this information solely for contacting you regarding your inquiry, providing information about our services, and improving our offerings. We do not sell or share your data with third parties."
+      },
+      "security": {
+        "title": "3. Data Security",
+        "content": "We take reasonable measures to protect your information from unauthorized access, disclosure, alteration, or destruction."
+      },
+      "rights": {
+        "title": "4. Your Rights",
+        "content": "You have the right to request access to, correction, or deletion of your personal data. To exercise these rights, please contact us at <email>{email}</email>."
+      },
+      "changes": {
+        "title": "5. Changes to This Policy",
+        "content": "We may update this privacy policy from time to time. We encourage you to review it periodically."
+      }
+    },
+    "footer": "© 2025 AImarat. All rights reserved."
   }
 }

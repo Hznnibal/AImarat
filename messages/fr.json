@@ -235,5 +235,32 @@
       "description": "Découvrez comment nos chatbots intelligents peuvent améliorer votre relation client.",
       "button": "Demander une démo"
     }
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : juin 2025",
+    "sections": {
+      "information": {
+        "title": "1. Informations que nous collectons",
+        "content": "Nous collectons les informations personnelles que vous nous fournissez volontairement lorsque vous remplissez un formulaire de génération de prospects sur notre site, notamment votre nom, adresse e-mail, poste et nom de l’entreprise."
+      },
+      "usage": {
+        "title": "2. Comment nous utilisons vos informations",
+        "content": "Nous utilisons ces informations uniquement pour vous contacter au sujet de votre demande, fournir des informations sur nos services et améliorer nos offres. Nous ne vendons ni ne partageons vos données avec des tiers."
+      },
+      "security": {
+        "title": "3. Sécurité des données",
+        "content": "Nous prenons des mesures raisonnables pour protéger vos informations contre l’accès, la divulgation, la modification ou la destruction non autorisés."
+      },
+      "rights": {
+        "title": "4. Vos droits",
+        "content": "Vous avez le droit de demander l’accès, la correction ou la suppression de vos données personnelles. Pour exercer ces droits, veuillez nous contacter à <email>{email}</email>."
+      },
+      "changes": {
+        "title": "5. Modifications de cette politique",
+        "content": "Nous pouvons mettre à jour cette politique de confidentialité de temps en temps. Nous vous encourageons à la consulter régulièrement."
+      }
+    },
+    "footer": "© 2025 AImarat. Tous droits réservés."
   }
 }
