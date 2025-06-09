@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport({
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, message } = body;
+    const { name, email, message, service, company } = body;
 
     if (!name || !email || !message) {
       return NextResponse.json({ message: "Missing fields" }, { status: 400 });
@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
       from: `${email}`,
       to: process.env.SMTP_USER, // ton email destinataire
       subject: `Nouveau message de ${name}`,
-      text: `Nom: ${name}\nEmail: ${email}\nMessage:\n${message}`,
+      text: `Nom: ${name}\nEmail: ${email}\nService: ${service}\nCompany: ${company}\nMessage: ${message}\n`,
       replyTo: email,
     });
 

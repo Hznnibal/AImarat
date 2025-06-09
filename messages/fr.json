@@ -1,266 +1,321 @@
 {
-  "header": {
-    "offers": "Offres",
-    "demo": "Démo",
+  "common": {
+    "aimarat": "AImarat",
+    "tagline": "AI Solutions",
+    "slogan": "Simplifiez votre business, amplifiez vos résultats",
+    "requestDemo": "Demander une démo",
+    "learnMore": "En savoir plus",
     "contact": "Contact",
-    "requestDemo": "Demander une démo"
+    "email": "Email",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "name": "Nom",
+    "company": "Entreprise",
+    "message": "Message",
+    "send": "Envoyer",
+    "loading": "Chargement...",
+    "success": "Succès",
+    "error": "Erreur"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "À propos",
+    "contact": "Contact"
   },
   "hero": {
-    "title": "Simplifiez votre business,",
-    "titleHighlight": "amplifiez vos résultats",
-    "subtitle": "Des solutions d'intelligence artificielle sur mesure pour transformer votre entreprise et automatiser vos processus métier.",
-    "cta": {
-      "services": "Découvrir nos services",
-      "demo": "Demander une démo"
+    "badge": "Solutions IA",
+    "title": "Simplifiez votre <business>business</business>, amplifiez vos <results>résultats</results>",
+    "business": "business",
+    "results": "résultats",
+    "description": "AImarat transforme votre entreprise avec des solutions d'intelligence artificielle sur mesure. Chatbots multilingues, automatisation intelligente et analyse de documents pour propulser votre croissance.",
+    "startNow": "Commencer maintenant",
+    "viewWork": "Voir nos réalisations",
+    "stats": {
+      "satisfaction": "Satisfaction client",
+      "timeGain": "Gain de temps",
+      "roi": "ROI moyen"
     }
   },
   "services": {
-    "title": "Nos",
-    "titleHighlight": "offres",
-    "subtitle": "principales",
-    "description": "Des solutions intelligentes et innovantes pour répondre aux besoins spécifiques de votre entreprise.",
-    "items": {
-      "chatbots": {
-        "title": "Chatbots intelligents",
-        "description": "Des assistants virtuels personnalisés qui comprennent vos clients et répondent à leurs besoins en temps réel."
-      },
-      "automation": {
-        "title": "Automatisation métier",
-        "description": "Optimisez vos processus internes et réduisez les tâches répétitives grâce à nos solutions d'automatisation sur mesure."
-      },
-      "ai": {
-        "title": "IA sur mesure",
-        "description": "Des solutions d'intelligence artificielle adaptées à vos besoins spécifiques pour transformer votre entreprise."
+    "title": "Nos Solutions <ai>IA</ai>",
+    "ai": "IA",
+    "subtitle": "Trois solutions phares pour transformer votre entreprise et automatiser vos processus métier",
+    "chatbot": {
+      "title": "Chatbots Intelligents Multilingues",
+      "description": "Chatbots avancés en arabe et anglais pour le secteur bancaire et financier. Support client 24/7 avec compréhension contextuelle.",
+      "features": {
+        "multilingual": "Support AR/EN",
+        "banking": "Intégration bancaire",
+        "ai": "IA conversationnelle",
+        "analytics": "Analytics avancées"
       }
     },
-    "learnMore": "En savoir plus"
-  },
-  "demo": {
-    "title": "Essayez notre solution",
-    "subtitle": "Découvrez comment nos solutions d'IA peuvent transformer votre entreprise. Demandez une démonstration personnalisée adaptée à vos besoins spécifiques.",
-    "benefits": {
-      "presentation": "Présentation sur mesure",
-      "cases": "Cas d'usage concrets",
-      "estimation": "Estimation des bénéfices potentiels"
+    "automation": {
+      "title": "Automatisation RH Intelligente",
+      "description": "Automatisation complète des processus RH avec Zapier et Make. Recrutement, onboarding et gestion des talents optimisés.",
+      "features": {
+        "workflow": "Workflow automation",
+        "integrations": "Intégrations multiples",
+        "mining": "Process mining",
+        "roi": "ROI mesurable"
+      }
     },
-    "form": {
-      "title": "Demandez votre démo",
-      "subtitle": "Remplissez le formulaire ci-dessous et notre équipe vous contactera dans les 24 heures.",
-      "company": "Nom de l'entreprise",
-      "name": "Nom et prénom",
-      "email": "Email professionnel",
-      "phone": "Téléphone",
-      "submit": "Réserver ma démo"
+    "analysis": {
+      "title": "Analyse Documentaire IA",
+      "description": "Recherche sémantique et analyse intelligente de documents. Extraction d'insights et classification automatique.",
+      "features": {
+        "semantic": "Recherche sémantique",
+        "ocr": "OCR avancé",
+        "classification": "Classification auto",
+        "api": "API intégrable"
+      }
+    },
+    "benefits": {
+      "title": "Pourquoi choisir AImarat ?",
+      "local": {
+        "title": "Expertise locale",
+        "description": "Solutions adaptées au marché et aux spécificités culturelles."
+      },
+      "fast": {
+        "title": "Déploiement rapide",
+        "description": "Mise en œuvre en 2-4 semaines avec formation et support inclus."
+      },
+      "secure": {
+        "title": "Sécurité garantie",
+        "description": "Conformité GDPR et standards de sécurité bancaires."
+      }
     }
   },
-  "testimonials": {
-    "title": "Ce que nos",
-    "titleHighlight": "clients",
-    "subtitle": "disent",
-    "description": "Découvrez comment nos solutions ont transformé le quotidien de nos clients et amélioré leurs performances.",
-    "items": {
-      "1": {
-        "name": "Sophie Martin",
-        "company": "TechInnovate",
-        "content": "La solution de chatbot d'AImarat a révolutionné notre service client, avec une réduction de 40% des tickets et une satisfaction client en hausse."
+  "portfolio": {
+    "title": "Nos <achievements>Réalisations</achievements>",
+    "achievements": "Réalisations",
+    "subtitle": "Découvrez comment nos solutions IA ont transformé les entreprises",
+    "categories": {
+      "banking": "Banking & Finance",
+      "hr": "Human Resources",
+      "documents": "Document Intelligence"
+    },
+    "demos": {
+      "banking": {
+        "title": "Chatbot Bancaire Multilingue",
+        "description": "Assistant virtuel intelligent pour une banque, gérant les demandes en arabe et anglais avec 95% de précision.",
+        "metrics": {
+          "responseTime": "Réduction du temps de réponse",
+          "satisfaction": "Satisfaction client",
+          "requests": "Requêtes traitées/jour"
+        },
+        "results": "Réduction de 60% des appels au service client et amélioration de 40% de la satisfaction utilisateur."
       },
-      "2": {
-        "name": "Thomas Dubois",
-        "company": "FinanceSolutions",
-        "content": "Grâce à l'automatisation mise en place par AImarat, nous avons gagné un temps précieux sur nos processus quotidiens."
+      "hr": {
+        "title": "Automatisation RH Enterprise",
+        "description": "Système d'automatisation complète du processus de recrutement pour une entreprise de 500+ employés.",
+        "metrics": {
+          "timeGain": "Gain de temps",
+          "costReduction": "Coût réduit",
+          "successRate": "Taux de succès"
+        },
+        "results": "Automatisation de 80% des tâches répétitives et réduction de 3 semaines du cycle de recrutement."
       },
-      "3": {
-        "name": "Claire Leroy",
-        "company": "E-commerce Plus",
-        "content": "L'IA sur mesure développée par AImarat nous a permis d'améliorer nos prédictions de vente de 35%. Un partenariat précieux."
+      "documents": {
+        "title": "Analyse Documentaire IA",
+        "description": "Solution d'analyse et de classification automatique de documents juridiques et financiers.",
+        "metrics": {
+          "accuracy": "Précision",
+          "speed": "Vitesse de traitement",
+          "processed": "Documents traités"
+        },
+        "results": "Traitement automatique de 10,000 documents par jour avec 98% de précision dans la classification."
+      }
+    },
+    "technologies": "Technologies utilisées",
+    "results": "Résultats obtenus",
+    "viewDemo": "Voir la démo complète",
+    "testimonials": {
+      "title": "Ce que disent nos clients",
+      "clients": {
+        "ahmed": {
+          "name": "Ahmed Al-Rashid",
+          "position": "Directeur IT, Banque Nationale",
+          "comment": "AImarat a révolutionné notre service client. Le chatbot multilingue a réduit nos coûts de 40% tout en améliorant la satisfaction.",
+          "company": "Major Bank"
+        },
+        "sarah": {
+          "name": "Sarah Mahmoud",
+          "position": "DRH, Groupe Industrial",
+          "comment": "L'automatisation RH nous fait gagner 15 heures par semaine. Le ROI a été atteint en seulement 2 mois.",
+          "company": "Industrial Conglomerate"
+        },
+        "omar": {
+          "name": "Omar Al-Fahd",
+          "position": "CEO, Cabinet Juridique",
+          "comment": "L'analyse documentaire IA a transformé notre pratique. Nous traitons maintenant 5x plus de dossiers avec la même équipe.",
+          "company": "Legal Firm"
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "À propos <aimarat>d'AImarat</aimarat>",
+    "subtitle": "Nous sommes une entreprise spécialisée en solutions d'intelligence artificielle, dédiée à la transformation digitale des entreprises.",
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Démocratiser l'intelligence artificielle pour les entreprises en proposant des solutions accessibles, efficaces et adaptées aux spécificités locales. Nous croyons que l'IA doit être un accélérateur de croissance, pas un obstacle technologique."
+    },
+    "values": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "Nous utilisons les dernières technologies IA pour créer des solutions avant-gardistes."
+      },
+      "proximity": {
+        "title": "Proximité client",
+        "description": "Accompagnement personnalisé et support dédié pour garantir votre réussite."
+      },
+      "expertise": {
+        "title": "Expertise locale",
+        "description": "Connaissance approfondie du marché et des spécificités culturelles."
+      }
+    },
+    "stats": {
+      "clients": "Clients satisfaits",
+      "projects": "Projets livrés",
+      "success": "Taux de succès",
+      "roi": "ROI moyen"
+    },
+    "team": {
+      "title": "Leadership & Expertise",
+      "founder": {
+        "title": "Fondateur & CEO",
+        "expertise": "Expert en IA et automatisation",
+        "experience": "8+ années d'expérience",
+        "specialities": "IA, Automatisation, Bots"
+      },
+      "specialitiesLabel": "Spécialités :"
+    },
+    "whyChoose": {
+      "title": "Pourquoi nous choisir ?",
+      "custom": {
+        "title": "Approche sur mesure",
+        "description": "Chaque solution est conçue spécifiquement pour vos besoins et votre secteur d'activité."
+      },
+      "bilingual": {
+        "title": "Expertise bilingue",
+        "description": "Solutions parfaitement adaptées aux contextes arabophone et anglophone."
+      },
+      "proven": {
+        "title": "ROI prouvé",
+        "description": "Retour sur investissement moyen de 300% en moins de 6 mois."
+      },
+      "support": {
+        "title": "Support premium",
+        "description": "Accompagnement complet de la conception au déploiement et au-delà."
       }
     }
   },
   "contact": {
-    "title": "Contactez-nous",
+    "title": "Transformons votre <enterprise>entreprise</enterprise> ensemble",
+    "enterprise": "entreprise",
+    "subtitle": "Prêt à automatiser vos processus et booster votre productivité ? Contactez-nous pour une démonstration personnalisée.",
     "form": {
-      "name": "Nom",
-      "email": "Email",
+      "title": "Demander une démonstration",
+      "fullName": "Nom complet",
+      "professionalEmail": "Email professionnel",
+      "company": "Entreprise",
+      "serviceInterest": "Service d'intérêt",
       "message": "Message",
-      "namePlaceholder": "Votre nom",
-      "emailPlaceholder": "votre@email.com",
-      "messagePlaceholder": "Comment pouvons-nous vous aider?",
-      "submit": "Envoyer",
-      "sending": "Envoi en cours...",
-      "success": "Merci pour votre message. Nous vous contacterons prochainement."
+      "selectService": "Sélectionner un service",
+      "required": "Champs obligatoires. Nous nous engageons à protéger vos données personnelles.",
+      "submit": "Demander une démonstration gratuite",
+      "placeholders": {
+        "name": "Votre nom",
+        "email": "votre@entreprise.com",
+        "company": "Nom de votre entreprise",
+        "message": "Décrivez votre projet ou vos besoins..."
+      }
+    },
+    "services": {
+      "chatbot": "Chatbot Multilingue",
+      "automation": "Automatisation RH",
+      "analysis": "Analyse Documentaire IA",
+      "consulting": "Consultation IA",
+      "training": "Formation & Support",
+      "other": "Autre"
+    },
+    "success": "Merci pour votre message. Nous vous contacterons prochainement.",
+    "info": {
+      "email": {
+        "title": "Email",
+        "details": "mustaphamejri80@gmail.com",
+        "action": "Nous écrire"
+      },
+      "phone": {
+        "title": "Téléphone",
+        "details": "+33 6 44 31 07 95",
+        "action": "Nous appeler"
+      },
+      "address": {
+        "title": "Adresse",
+        "details": "Riyadh, Arabie Saoudite",
+        "action": "Nous localiser"
+      }
+    },
+    "quickStart": {
+      "title": "Démarrage rapide",
+      "demo": "Démonstration en 30 minutes",
+      "consulting": "Conseil personnalisé gratuit",
+      "quote": "Devis sous 48h",
+      "description": "Rejoignez les 50+ entreprises qui ont transformé leur activité avec l'IA.",
+      "satisfaction": "de clients satisfaits"
+    },
+    "availability": {
+      "title": "Disponibilité",
+      "schedule": "Dimanche - Jeudi : 9h - 18h (GMT+3)",
+      "response": "Réponse sous 2h en période d'activité",
+      "online": "En ligne maintenant"
     }
   },
   "footer": {
-    "quickLinks": "Liens Rapides",
+    "newsletter": {
+      "title": "Restez informé des dernières innovations IA",
+      "description": "Recevez notre newsletter mensuelle avec les tendances IA, cas d'usage et insights exclusifs.",
+      "placeholder": "Votre email professionnel",
+      "subscribe": "S'abonner",
+      "disclaimer": "Aucun spam. Désabonnement facile à tout moment."
+    },
+    "company": {
+      "description": "Simplifiez votre business, amplifiez vos résultats. Solutions IA de pointe pour les entreprises."
+    },
     "links": {
-      "services": "Nos services",
-      "demo": "Demander une démo",
-      "legal": "Mentions légales",
-      "privacy": "Politique de confidentialité"
-    },
-    "contact": "Contact",
-    "rights": "Tous droits réservés."
-  },
-  "ai": {
-    "hero": {
-      "title": "Solutions d'Intelligence Artificielle sur mesure",
-      "description": "Transformez votre entreprise avec des solutions d'IA innovantes, conçues pour répondre à vos besoins spécifiques.",
-      "cta": "Découvrir nos solutions"
-    },
-    "capabilities": {
-      "prediction": {
-        "title": "Prédiction intelligente",
-        "description": "Anticipez les tendances et prenez des décisions éclairées grâce à l'analyse prédictive."
+      "services": {
+        "title": "Services",
+        "chatbots": "Chatbots Multilingues",
+        "automation": "Automatisation RH",
+        "analysis": "Analyse Documentaire",
+        "consulting": "Consultation IA",
+        "training": "Formation & Support"
       },
-      "personalization": {
-        "title": "Personnalisation avancée",
-        "description": "Offrez des expériences sur mesure à vos clients grâce à l'IA."
+      "company": {
+        "title": "Entreprise",
+        "about": "À propos",
+        "team": "Notre équipe",
+        "careers": "Carrières",
+        "partners": "Partenaires",
+        "blog": "Blog"
       },
-      "analysis": {
-        "title": "Analyse de données",
-        "description": "Exploitez la puissance de vos données avec des algorithmes sophistiqués."
-      }
-    },
-    "applications": {
-      "title": "Applications de l'IA",
-      "vision": {
-        "title": "Vision par ordinateur",
-        "description": "Analyse d'images et de vidéos pour la détection d'objets et la reconnaissance faciale."
-      },
-      "language": {
-        "title": "Traitement du langage",
-        "description": "Analyse de texte, traduction automatique et génération de contenu."
-      },
-      "prediction": {
-        "title": "Analyse prédictive",
-        "description": "Prévision des tendances et optimisation des processus métier."
-      },
-      "recommendation": {
-        "title": "Recommandation",
-        "description": "Systèmes de recommandation personnalisés pour vos clients."
-      }
-    },
-    "cta": {
-      "title": "Prêt à exploiter la puissance de l'IA ?",
-      "description": "Découvrez comment nos solutions d'IA peuvent transformer votre entreprise.",
-      "button": "Demander une démo"
-    }
-  },
-  "automation": {
-    "hero": {
-      "title": "Automatisation intelligente des processus métier",
-      "description": "Transformez vos opérations avec des solutions d'automatisation sur mesure qui optimisent vos processus et augmentent votre efficacité.",
-      "cta": "Explorer nos solutions"
-    },
-    "benefits": {
-      "time": {
-        "title": "Gain de temps",
-        "description": "Automatisez les tâches répétitives pour libérer vos équipes."
-      },
-      "productivity": {
-        "title": "Productivité accrue",
-        "description": "Optimisez vos processus pour de meilleures performances."
-      },
-      "accuracy": {
-        "title": "Réduction des erreurs",
-        "description": "Minimisez les erreurs humaines grâce à l'automatisation."
-      }
-    },
-    "solutions": {
-      "title": "Nos solutions d'automatisation",
-      "hr": {
-        "title": "Automatisation RH",
-        "description": "Simplifiez le recrutement, l'onboarding et la gestion des documents RH."
-      },
-      "finance": {
-        "title": "Automatisation Finance",
-        "description": "Optimisez la facturation, la comptabilité et le reporting financier."
-      },
-      "marketing": {
-        "title": "Automatisation Marketing",
-        "description": "Automatisez vos campagnes marketing et la gestion des leads."
-      },
-      "it": {
-        "title": "Automatisation IT",
-        "description": "Simplifiez la gestion des tickets et la maintenance des systèmes."
-      }
-    },
-    "cta": {
-      "title": "Prêt à automatiser vos processus ?",
-      "description": "Découvrez comment notre expertise en automatisation peut transformer votre entreprise.",
-      "button": "Demander une démo"
-    }
-  },
-  "chatbot": {
-    "hero": {
-      "title": "Chatbots intelligents pour une expérience client exceptionnelle",
-      "description": "Automatisez votre service client avec des assistants virtuels disponibles 24/7, capables de comprendre et de répondre aux besoins de vos clients en temps réel.",
-      "cta": "Découvrir nos solutions"
-    },
-    "features": {
-      "engagement": {
-        "title": "Engagement client 24/7",
-        "description": "Assistance automatisée disponible en permanence pour répondre aux questions de vos clients."
-      },
-      "instant": {
-        "title": "Réponses instantanées",
-        "description": "Traitement immédiat des demandes courantes pour une satisfaction client optimale."
-      },
-      "analytics": {
-        "title": "Analyses détaillées",
-        "description": "Insights précieux sur les interactions clients pour améliorer votre service."
-      }
-    },
-    "usecases": {
-      "title": "Cas d'utilisation",
       "support": {
-        "title": "Service Client",
-        "description": "Réponses automatisées aux questions fréquentes, suivi des commandes et assistance 24/7."
-      },
-      "leads": {
-        "title": "Lead Generation",
-        "description": "Qualification des prospects et collecte d'informations pour votre équipe commerciale."
-      },
-      "tech": {
-        "title": "Support Technique",
-        "description": "Diagnostic initial des problèmes et solutions aux questions techniques courantes."
-      },
-      "booking": {
-        "title": "Réservations",
-        "description": "Gestion automatisée des rendez-vous et des réservations pour votre entreprise."
+        "title": "Support",
+        "documentation": "Documentation",
+        "help": "Centre d'aide",
+        "contact": "Contact",
+        "status": "Status système",
+        "security": "Sécurité"
       }
     },
-    "cta": {
-      "title": "Prêt à transformer votre service client ?",
-      "description": "Découvrez comment nos chatbots intelligents peuvent améliorer votre relation client.",
-      "button": "Demander une démo"
+    "legal": {
+      "copyright": "AImarat. Tous droits réservés. | Licence MISA en cours.",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation"
     }
-  },
-  "privacy": {
-    "title": "Politique de confidentialité",
-    "lastUpdated": "Dernière mise à jour : juin 2025",
-    "sections": {
-      "information": {
-        "title": "1. Informations que nous collectons",
-        "content": "Nous collectons les informations personnelles que vous nous fournissez volontairement lorsque vous remplissez un formulaire de génération de prospects sur notre site, notamment votre nom, adresse e-mail, poste et nom de l’entreprise."
-      },
-      "usage": {
-        "title": "2. Comment nous utilisons vos informations",
-        "content": "Nous utilisons ces informations uniquement pour vous contacter au sujet de votre demande, fournir des informations sur nos services et améliorer nos offres. Nous ne vendons ni ne partageons vos données avec des tiers."
-      },
-      "security": {
-        "title": "3. Sécurité des données",
-        "content": "Nous prenons des mesures raisonnables pour protéger vos informations contre l’accès, la divulgation, la modification ou la destruction non autorisés."
-      },
-      "rights": {
-        "title": "4. Vos droits",
-        "content": "Vous avez le droit de demander l’accès, la correction ou la suppression de vos données personnelles. Pour exercer ces droits, veuillez nous contacter à <email>{email}</email>."
-      },
-      "changes": {
-        "title": "5. Modifications de cette politique",
-        "content": "Nous pouvons mettre à jour cette politique de confidentialité de temps en temps. Nous vous encourageons à la consulter régulièrement."
-      }
-    },
-    "footer": "© 2025 AImarat. Tous droits réservés."
   }
 }

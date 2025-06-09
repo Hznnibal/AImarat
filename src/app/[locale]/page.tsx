@@ -1,21 +1,26 @@
-import Footer from './components/layout/Footer'
-import Header from './components/layout/Header'
-import DemoSection from './components/Sections/DemoSection'
-import HeroSection from './components/Sections/HeroSection'
-import ServicesSection from './components/Sections/ServicesSection'
-import TestimonialsSection from './components/Sections/TestimonialsSection'
+'use client'
 
-export default function Home() {
+import Footer from './components/layout/Footer';
+import Header from './components/layout/Header';
+import About from './components/ui/About';
+import Contact from './components/ui/Contact';
+import Hero from './components/ui/Hero';
+import Portfolio from './components/ui/Portfolio';
+import Services from './components/ui/Services';
+
+function App() {
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <main>
-        <HeroSection />
-        <ServicesSection />
-        <DemoSection />
-        <TestimonialsSection />
-      </main>
+      <Hero />
+      <Services />
+      <Portfolio />
+      <About />
+      <Contact />
       <Footer />
     </div>
-  )
+  );
 }
+
+export default App;

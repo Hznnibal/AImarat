@@ -112,11 +112,9 @@ export const metadata: Metadata = {
 
     icons: {
         icon: [
-            { url: '/favicon.ico', sizes: 'any' },
-            { url: '/icon.svg', type: 'image/svg+xml' },
+            { url: '/AI-MARAT.png', type: 'image/svg+xml' },
         ],
-        apple: '/apple-touch-icon.png',
-        shortcut: '/favicon.ico',
+        shortcut: '/AI-MARAT.png',
     },
 
     manifest: '/manifest.json',
