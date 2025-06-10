@@ -1,5 +1,6 @@
 import { ArrowRight, Clock, FileSearch, Globe, MessageCircle, Shield, Zap } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 const Services = () => {
     const t = useTranslations();
@@ -10,39 +11,41 @@ const Services = () => {
             title: t('services.chatbot.title'),
             description: t('services.chatbot.description'),
             features: [
-                t('services.chatbot.features.multilingual'),
-                t('services.chatbot.features.banking'),
-                t('services.chatbot.features.ai'),
-                t('services.chatbot.features.analytics')
+                t('services.chatbot.features.multilingual.title'),
+                t('services.chatbot.features.security.title'),
+                t('services.chatbot.features.integration.title'),
+                t('services.chatbot.features.analytics.title')
             ],
             color: 'blue',
-            gradient: 'from-blue-500 to-blue-600'
+            gradient: 'from-blue-500 to-blue-600',
+            link: '/chatbots'
         },
         {
             icon: Zap,
-            title: t('services.automation.title'),
-            description: t('services.automation.description'),
+            title: t('services.hrAutomation.title'),
+            description: t('services.hrAutomation.description'),
             features: [
-                t('services.automation.features.workflow'),
-                t('services.automation.features.integrations'),
-                t('services.automation.features.mining'),
-                t('services.automation.features.roi')
+                t('services.hrAutomation.features.time.title'),
+                t('services.hrAutomation.features.efficiency.title'),
+                t('services.hrAutomation.features.experience.title'),
+                t('services.hrAutomation.features.accuracy.title')
             ],
             color: 'amber',
-            gradient: 'from-amber-500 to-amber-600'
+            gradient: 'from-amber-500 to-amber-600',
+            link: '/automation'
         },
         {
             icon: FileSearch,
-            title: t('services.analysis.title'),
-            description: t('services.analysis.description'),
+            title: t('services.documentAnalysis.title'),
+            description: t('services.documentAnalysis.description'),
             features: [
-                t('services.analysis.features.semantic'),
-                t('services.analysis.features.ocr'),
-                t('services.analysis.features.classification'),
-                t('services.analysis.features.api')
+                t('services.documentAnalysis.features.semantic.title'),
+                t('services.documentAnalysis.features.extraction.title'),
+                t('services.documentAnalysis.features.classification.title'),
             ],
             color: 'green',
-            gradient: 'from-green-500 to-green-600'
+            gradient: 'from-green-500 to-green-600',
+            link: '/ai'
         }
     ];
 
@@ -109,10 +112,12 @@ const Services = () => {
                                     ))}
                                 </ul>
 
-                                <button className="w-full bg-gray-50 hover:bg-gray-100 text-gray-700 font-semibold py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 group-hover:bg-blue-50 group-hover:text-blue-600">
-                                    <span>{t('common.learnMore')}</span>
-                                    <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                                </button>
+                                <Link href={service.link}>
+                                    <div className="w-full bg-gray-50 hover:bg-gray-100 text-gray-700 font-semibold py-3 px-4 rounded-lg transition-colors duration-200 flex items-center justify-center space-x-2 group-hover:bg-blue-50 group-hover:text-blue-600">
+                                        <span>{t('common.learnMore')}</span>
+                                        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     ))}

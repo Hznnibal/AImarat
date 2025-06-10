@@ -1,5 +1,6 @@
 import { ArrowRight, Bot, Linkedin, Mail, MapPin, Phone, Twitter } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -28,6 +29,12 @@ const Footer = () => {
             t('footer.links.support.security')
         ]
     };
+
+    const serviceLinks = [
+        { label: t('footer.links.services.chatbots'), href: '/chatbots' },
+        { label: t('footer.links.services.automation'), href: '/automation' },
+        { label: t('footer.links.services.analysis'), href: '/ai' },
+    ];
 
     return (
         <footer className="bg-gray-900 text-white">
@@ -83,6 +90,26 @@ const Footer = () => {
                             {t('footer.company.description')}
                         </p>
 
+
+                    </div>
+
+                    {/* Footer Links */}
+                    <div className="mb-12 lg:mb-0 ml-auto">
+                        <h3 className="font-semibold text-white mb-6">{t('footer.links.services.title')}</h3>
+                        <ul className="space-y-3">
+                            {serviceLinks.map(({ label, href }, index) => (
+                                <li key={index}>
+                                    <a href={href} className="text-gray-400 hover:text-white transition-colors text-sm">
+                                        {label}
+                                    </a>
+                                </li>
+                            ))}
+
+                        </ul>
+                    </div>
+
+                    <div className="mb-12 lg:mb-0 ml-auto">
+                        <h3 className="font-semibold text-white mb-6">Infos</h3>
                         <div className="space-y-3">
                             <div className="flex items-center space-x-3 text-gray-400">
                                 <Mail className="w-4 h-4" />
@@ -98,46 +125,6 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* Footer Links */}
-                    <div className="mb-12 lg:mb-0">
-                        <h3 className="font-semibold text-white mb-6">{t('footer.links.services.title')}</h3>
-                        <ul className="space-y-3">
-                            {footerLinks.services.map((link, index) => (
-                                <li key={index}>
-                                    <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">
-                                        {link}
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-
-                    <div className="mb-12 lg:mb-0">
-                        <h3 className="font-semibold text-white mb-6">{t('footer.links.company.title')}</h3>
-                        <ul className="space-y-3">
-                            {footerLinks.company.map((link, index) => (
-                                <li key={index}>
-                                    <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">
-                                        {link}
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-
-                    <div className="mb-12 lg:mb-0">
-                        <h3 className="font-semibold text-white mb-6">{t('footer.links.support.title')}</h3>
-                        <ul className="space-y-3">
-                            {footerLinks.support.map((link, index) => (
-                                <li key={index}>
-                                    <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">
-                                        {link}
-                                    </a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
                 </div>
             </div>
 
@@ -150,12 +137,16 @@ const Footer = () => {
                         </div>
 
                         <div className="flex items-center space-x-6">
-                            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                                {t('footer.legal.privacy')}
-                            </a>
-                            <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
-                                {t('footer.legal.terms')}
-                            </a>
+                            <Link href="/privacy-policy">
+                                <div className="text-gray-400 hover:text-white text-sm transition-colors">
+                                    <span> {t('footer.legal.privacy')}</span>
+                                </div>
+                            </Link>
+                            <Link href="/terms-of-use">
+                                <div className="text-gray-400 hover:text-white text-sm transition-colors">
+                                    <span> {t('footer.legal.terms')}</span>
+                                </div>
+                            </Link>
 
                             {/* Social Links */}
                             <div className="flex items-center space-x-4 ml-6">

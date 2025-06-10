@@ -25,10 +25,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "badge": "AI Solutions",
+    "badge": "AI Solutions for Saudi Arabia",
     "title": "Simplify your <business>business</business>, amplify your <results>results</results>",
-    "business": "business",
-    "results": "results",
     "description": "AImarat transforms your business with custom artificial intelligence solutions. Multilingual chatbots, intelligent automation and document analysis to drive your growth.",
     "startNow": "Start Now",
     "viewWork": "View Our Work",
@@ -39,44 +37,320 @@
     }
   },
   "services": {
-    "title": "Our <ai>ai</ai> Solutions",
+    "title": "Our <ai>AI</ai> Solutions",
     "ai": "AI",
     "subtitle": "Three flagship solutions to transform your business and automate your business processes",
     "chatbot": {
       "title": "Intelligent Multilingual Chatbots",
       "description": "Advanced chatbots in Arabic and English for banking and financial sector. 24/7 customer support with contextual understanding.",
+      "badge": "Intelligent Multilingual Chatbots",
+      "hero": {
+        "title": "<intelligent>Intelligent</intelligent> Chatbots for Saudi Arabia",
+        "intelligent": "Intelligent",
+        "description": "Revolutionize your customer service with advanced AI chatbots supporting Arabic and English. Banking integration, contextual understanding and real-time analytics.",
+        "demoButton": "View Live Demo",
+        "consultButton": "Free Consultation"
+      },
+      "stats": {
+        "accuracy": "Accuracy",
+        "availability": "Availability",
+        "reduction": "Cost Reduction"
+      },
       "features": {
-        "multilingual": "AR/EN Support",
-        "banking": "Banking Integration",
-        "ai": "Conversational AI",
-        "analytics": "Advanced Analytics"
+        "title": "Advanced Features",
+        "subtitle": "Cutting-edge AI capabilities to transform your customer service",
+        "multilingual": {
+          "title": "Native Multilingual Support",
+          "description": "Perfect understanding of Arabic and English with automatic language detection and culturally appropriate responses for each language."
+        },
+        "security": {
+          "title": "Banking Security",
+          "description": "Compliance with Saudi banking security standards with end-to-end encryption and multi-factor authentication."
+        },
+        "integration": {
+          "title": "System Integration",
+          "description": "Native connection with your existing systems: CRM, ERP, customer databases and payment platforms."
+        },
+        "analytics": {
+          "title": "Intelligent Analytics",
+          "description": "Real-time dashboards with insights on conversations, customer satisfaction and improvement opportunities."
+        }
+      },
+      "useCases": {
+        "title": "Sector Use Cases",
+        "subtitle": "Solutions adapted to your industry with measurable ROI",
+        "banking": {
+          "title": "Banking Services",
+          "description": "Virtual assistant for account consultations, transfers, credit requests and 24/7 customer support in Arabic and English.",
+          "benefits": {
+            "benefit1": "60% reduction in customer service calls",
+            "benefit2": "24/7 availability without interruption",
+            "benefit3": "Instant processing of common requests",
+            "benefit4": "40% improvement in customer satisfaction"
+          }
+        },
+        "ecommerce": {
+          "title": "E-commerce",
+          "description": "Intelligent sales advisor for product recommendations, order tracking and personalized after-sales support.",
+          "benefits": {
+            "benefit1": "25% increase in average basket",
+            "benefit2": "50% reduction in abandonment rate",
+            "benefit3": "Automatic multilingual support",
+            "benefit4": "AI-powered personalized recommendations"
+          }
+        },
+        "support": {
+          "title": "Customer Support",
+          "description": "Omnichannel support platform with intelligent escalation to human agents based on complexity.",
+          "benefits": {
+            "benefit1": "Automatic resolution of 80% of tickets",
+            "benefit2": "Response time < 30 seconds",
+            "benefit3": "Intelligent escalation to humans",
+            "benefit4": "Unified customer history"
+          }
+        }
+      },
+      "pricing": {
+        "title": "Transparent Pricing",
+        "subtitle": "Choose the plan that fits your needs with guaranteed ROI",
+        "popular": "Most Popular",
+        "getStarted": "Get Started",
+        "starter": {
+          "name": "Starter",
+          "price": "2,500 SAR/month",
+          "description": "Perfect for SMEs",
+          "features": {
+            "feature1": "1,000 conversations/month",
+            "feature2": "AR/EN Support",
+            "feature3": "WhatsApp Integration",
+            "feature4": "Basic Analytics",
+            "feature5": "Email Support"
+          }
+        },
+        "professional": {
+          "name": "Professional",
+          "price": "7,500 SAR/month",
+          "description": "Ideal for enterprises",
+          "features": {
+            "feature1": "10,000 conversations/month",
+            "feature2": "CRM/ERP Integrations",
+            "feature3": "Advanced Analytics",
+            "feature4": "Custom API",
+            "feature5": "Priority Support",
+            "feature6": "Team Training"
+          }
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "Custom",
+          "description": "Custom solutions",
+          "features": {
+            "feature1": "Unlimited conversations",
+            "feature2": "On-premise deployment",
+            "feature3": "Enhanced security",
+            "feature4": "99.9% SLA guaranteed",
+            "feature5": "24/7 dedicated support",
+            "feature6": "Custom development"
+          }
+        }
+      },
+      "cta": {
+        "title": "Ready to transform your customer service?",
+        "description": "Join Saudi companies that have revolutionized their customer relationships with our AI chatbots.",
+        "demo": "Interactive Demo",
+        "contact": "Talk to an Expert"
       }
     },
-    "automation": {
+    "hrAutomation": {
       "title": "Intelligent HR Automation",
       "description": "Complete automation of HR processes with Zapier and Make. Optimized recruitment, onboarding and talent management.",
+      "badge": "Intelligent HR Automation",
+      "hero": {
+        "title": "<automate>Automate</automate> your HR processes",
+        "automate": "Automate",
+        "description": "Transform your HR department with intelligent automation. From CV reception to new employee integration, save 70% of your time on repetitive tasks.",
+        "demoButton": "View Automation",
+        "auditButton": "Free HR Audit"
+      },
+      "stats": {
+        "timeReduction": "Time Savings",
+        "weeks": "Deployment Weeks",
+        "roi": "In 6 months"
+      },
+      "demo": {
+        "title": "Automation Flow in Action",
+        "subtitle": "Example: Automated Recruitment"
+      },
+      "processes": {
+        "title": "Automated Processes",
+        "subtitle": "Three key areas to maximize your HR efficiency",
+        "timeSaved": "time saved",
+        "recruitment": {
+          "title": "Recruitment",
+          "description": "Complete automation of the recruitment process from application reception to interview scheduling.",
+          "steps": {
+            "step1": "Automatic CV reception and sorting",
+            "step2": "AI analysis of candidate profiles",
+            "step3": "Automatic compatibility scoring",
+            "step4": "Personalized email sending",
+            "step5": "Automatic interview scheduling",
+            "step6": "Automatic follow-up and reminders"
+          }
+        },
+        "onboarding": {
+          "title": "Onboarding",
+          "description": "Smooth and automated onboarding process for successful integration of new collaborators.",
+          "steps": {
+            "step1": "Automatic user account creation",
+            "step2": "Welcome document sending",
+            "step3": "Mandatory training scheduling",
+            "step4": "Equipment allocation",
+            "step5": "Integration step tracking",
+            "step6": "Automatic feedback at 30/60/90 days"
+          }
+        },
+        "performance": {
+          "title": "Performance",
+          "description": "Automated performance tracking with alerts and reports to optimize talent management.",
+          "steps": {
+            "step1": "Automatic KPI collection",
+            "step2": "Periodic report generation",
+            "step3": "Goal alerts",
+            "step4": "Annual interview scheduling",
+            "step5": "Development plan tracking",
+            "step6": "Predictive HR analytics"
+          }
+        }
+      },
+
       "features": {
-        "workflow": "Workflow Automation",
-        "integrations": "Multiple Integrations",
-        "mining": "Process Mining",
-        "roi": "Measurable ROI"
+        "title": "Measurable Benefits",
+        "subtitle": "Direct impact on your productivity and HR costs",
+        "time": {
+          "title": "Massive Time Savings",
+          "description": "Save 15 hours per week on repetitive administrative tasks and focus on HR strategy."
+        },
+        "efficiency": {
+          "title": "Multiplied Efficiency",
+          "description": "Process 3x more applications with the same team thanks to intelligent automation and AI scoring."
+        },
+        "experience": {
+          "title": "Candidate Experience",
+          "description": "95% candidate satisfaction with smooth processes, automatic communication and real-time feedback."
+        },
+        "accuracy": {
+          "title": "Guaranteed Accuracy",
+          "description": "99% accuracy in data processing with elimination of human errors and automatic compliance."
+        }
+      },
+      "integrations": {
+        "title": "Native Integrations",
+        "subtitle": "Connect all your existing HR tools for a unified workflow",
+        "zapier": "No-code automation with 5000+ connected applications",
+        "make": "Advanced visual workflows for complex automations",
+        "linkedin": "Automatic sourcing and candidate management",
+        "slack": "Real-time team notifications and collaboration",
+        "google": "Complete integration with Gmail, Calendar, Drive",
+        "microsoft": "Synchronization with Outlook, Teams, SharePoint"
+      },
+      "cta": {
+        "title": "Ready to revolutionize your HR?",
+        "description": "Join companies that have transformed their HR processes and save thousands of hours each year.",
+        "audit": "Free HR Audit",
+        "contact": "Talk to an Expert"
       }
     },
-    "analysis": {
+    "documentAnalysis": {
       "title": "AI Document Analysis",
       "description": "Semantic search and intelligent document analysis. Insight extraction and automatic classification.",
+      "badge": "AI Document Intelligence",
+      "hero": {
+        "title": "<intelligent>Intelligent</intelligent> Document Analysis",
+        "intelligent": "Intelligent",
+        "description": "Transform your archives into an intelligent knowledge base. Semantic search, entity extraction and automatic classification to fully exploit your documents.",
+        "demoButton": "Test Analysis",
+        "testButton": "Free Test"
+      },
+      "stats": {
+        "accuracy": "Accuracy",
+        "speed": "Faster",
+        "processed": "Documents Processed"
+      },
+      "demo": {
+        "title": "Intelligent Search"
+      },
       "features": {
-        "semantic": "Semantic Search",
-        "ocr": "Advanced OCR",
-        "classification": "Auto Classification",
-        "api": "Integrable API"
+        "title": "Advanced Analysis Capabilities",
+        "subtitle": "Cutting-edge AI to understand and exploit your documents",
+        "semantic": {
+          "title": "Semantic Search",
+          "description": "Find relevant information even without exact keywords. Our AI understands meaning and context for precise results."
+        },
+        "extraction": {
+          "title": "Entity Extraction",
+          "description": "Automatic identification of people, dates, amounts, important clauses and business entities in your documents."
+        },
+        "classification": {
+          "title": "Intelligent Classification",
+          "description": "Automatic organization of your documents by type, subject and importance with continuous learning."
+        }
+      },
+      "useCases": {
+        "title": "Sector Use Cases",
+        "subtitle": "Specialized solutions for each industry",
+        "legal": {
+          "title": "Legal & Compliance",
+          "description": "Contract analysis, case law research, and automated compliance verification for law firms and legal departments.",
+          "benefits": {
+            "benefit1": "Contract analysis in 5 minutes vs 2 hours",
+            "benefit2": "Automatic detection of risky clauses",
+            "benefit3": "Intelligent case law research",
+            "benefit4": "Automatic regulatory compliance"
+          }
+        },
+        "finance": {
+          "title": "Finance & Accounting",
+          "description": "Automated processing of invoices, financial reports and accounting documents with accurate data extraction.",
+          "benefits": {
+            "benefit1": "Processing 1000 invoices/hour",
+            "benefit2": "Automatic extraction of accounting data",
+            "benefit3": "Detection of financial anomalies",
+            "benefit4": "Automated compliance reports"
+          }
+        },
+        "compliance": {
+          "title": "Audit & Compliance",
+          "description": "Automated regulatory compliance checks and audit preparation with full traceability.",
+          "benefits": {
+            "benefit1": "Compliance audit in 1 day vs 2 weeks",
+            "benefit2": "Complete document traceability",
+            "benefit3": "Real-time non-compliance alerts",
+            "benefit4": "Automated audit reports"
+          }
+        }
+      },
+      "technologies": {
+        "title": "Cutting-edge Technologies",
+        "subtitle": "Advanced technology stack for optimal performance",
+        "langchain": "AI framework for model chaining and intelligent agents",
+        "vector": "High-performance vector database for semantic search",
+        "ocr": "Advanced optical recognition for all document types",
+        "transformers": "State-of-the-art language models for understanding",
+        "elasticsearch": "Distributed search engine for optimal performance",
+        "api": "Complete REST API for integration into your systems"
+      },
+      "cta": {
+        "title": "Unlock your documents' potential",
+        "description": "Transform your archives into a competitive advantage with our document intelligence.",
+        "test": "Free Test",
+        "contact": "Talk to an Expert"
       }
     },
     "benefits": {
       "title": "Why choose AImarat?",
       "local": {
         "title": "Local Expertise",
-        "description": "Solutions adapted to the market and cultural specificities."
+        "description": "Solutions adapted to the Saudi market and cultural specificities."
       },
       "fast": {
         "title": "Rapid Deployment",
@@ -84,14 +358,13 @@
       },
       "secure": {
         "title": "Guaranteed Security",
-        "description": "GDPR compliance and banking security standards."
+        "description": "GDPR compliance and Saudi banking security standards."
       }
     }
   },
   "portfolio": {
     "title": "Our <achievements>achievements</achievements>",
-    "achievements": "Achievements",
-    "subtitle": "Discover how our AI solutions have transformed businesses",
+    "subtitle": "Discover how our AI solutions have transformed Saudi businesses",
     "categories": {
       "banking": "Banking & Finance",
       "hr": "Human Resources",
@@ -100,7 +373,7 @@
     "demos": {
       "banking": {
         "title": "Multilingual Banking Chatbot",
-        "description": "Intelligent virtual assistant for a bank, handling requests in Arabic and English with 95% accuracy.",
+        "description": "Intelligent virtual assistant for a Saudi bank, handling requests in Arabic and English with 95% accuracy.",
         "metrics": {
           "responseTime": "Response Time Reduction",
           "satisfaction": "Customer Satisfaction",
@@ -139,7 +412,7 @@
           "name": "Ahmed Al-Rashid",
           "position": "IT Director, National Bank",
           "comment": "AImarat revolutionized our customer service. The multilingual chatbot reduced our costs by 40% while improving satisfaction.",
-          "company": "Major Bank"
+          "company": "Major Saudi Bank"
         },
         "sarah": {
           "name": "Sarah Mahmoud",
@@ -158,10 +431,10 @@
   },
   "about": {
     "title": "About <aimarat>AImarat</aimarat>",
-    "subtitle": "We are a company specialized in artificial intelligence solutions, dedicated to the digital transformation of businesses.",
+    "subtitle": "We are a company specialized in artificial intelligence solutions, dedicated to the digital transformation of Saudi businesses.",
     "mission": {
       "title": "Our Mission",
-      "description": "Democratize artificial intelligence for businesses by offering accessible, effective solutions adapted to local specificities. We believe AI should be a growth accelerator, not a technological barrier."
+      "description": "Democratize artificial intelligence for Saudi businesses by offering accessible, effective solutions adapted to local specificities. We believe AI should be a growth accelerator, not a technological barrier."
     },
     "values": {
       "innovation": {
@@ -174,7 +447,7 @@
       },
       "expertise": {
         "title": "Local Expertise",
-        "description": "Deep knowledge of the market and cultural specificities."
+        "description": "Deep knowledge of the Saudi market and cultural specificities."
       }
     },
     "stats": {
@@ -185,13 +458,17 @@
     },
     "team": {
       "title": "Leadership & Expertise",
+      "specialitiesLabel": "Specialties :",
       "founder": {
         "title": "Founder & CEO",
         "expertise": "AI and Automation Expert",
         "experience": "8+ years of experience",
-        "specialities": "AI, Automation, Bots"
-      },
-      "specialitiesLabel": "Specialities:"
+        "specialities": {
+          "speciality1": "Machine Learning",
+          "speciality2": "Multilingual NLP",
+          "speciality3": "Cloud Architecture"
+        }
+      }
     },
     "whyChoose": {
       "title": "Why choose us?",
@@ -214,7 +491,7 @@
     }
   },
   "contact": {
-    "title": "Let's transform your <enterprise>enterprise</enterprise> together",
+    "title": "Let's transform your <enterprise>business</enterprise> together",
     "enterprise": "business",
     "subtitle": "Ready to automate your processes and boost your productivity? Contact us for a personalized demonstration.",
     "form": {
@@ -242,7 +519,11 @@
       "training": "Training & Support",
       "other": "Other"
     },
-    "success": "Thank you for your message. We will contact you soon.",
+    "success": {
+      "title": "Thank you for your request!",
+      "message": "We will contact you within 24 hours to schedule your demonstration.",
+      "newRequest": "Send a new request"
+    },
     "info": {
       "email": {
         "title": "Email",
@@ -265,7 +546,7 @@
       "demo": "30-minute demonstration",
       "consulting": "Free personalized consultation",
       "quote": "Quote within 48 hours",
-      "description": "Join 50+ companies that have transformed their business with AI.",
+      "description": "Join 50+ Saudi companies that have transformed their business with AI.",
       "satisfaction": "satisfied clients"
     },
     "availability": {
@@ -284,7 +565,7 @@
       "disclaimer": "No spam. Easy unsubscribe anytime."
     },
     "company": {
-      "description": "Simplify your business, amplify your results. Cutting-edge AI solutions for businesses."
+      "description": "Simplify your business, amplify your results. Cutting-edge AI solutions for Saudi businesses."
     },
     "links": {
       "services": {

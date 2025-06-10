@@ -34,7 +34,11 @@ const About = () => {
             name: t('about.team.founder.title'),
             expertise: t('about.team.founder.expertise'),
             experience: t('about.team.founder.experience'),
-            specialities: t('about.team.founder.specialities')
+            specialities: [
+                t('about.team.founder.specialities.speciality1'),
+                t('about.team.founder.specialities.speciality2'),
+                t('about.team.founder.specialities.speciality3'),
+            ],
         }
     ];
 

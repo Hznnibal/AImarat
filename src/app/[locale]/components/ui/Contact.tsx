@@ -213,7 +213,7 @@ const Contact = () => {
 
                                     <button
                                         type="submit"
-                                        className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold py-4 px-6 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-200 flex items-center justify-center space-x-2 shadow-lg"
+                                        className="w-full cursor-pointer bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold py-4 px-6 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-200 flex items-center justify-center space-x-2 shadow-lg"
                                     >
                                         <Send className="w-5 h-5" />
                                         <span>{t('contact.form.submit')}</span>

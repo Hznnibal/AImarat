@@ -1,6 +1,7 @@
 import { ExternalLink, Play, Star, TrendingUp, Users } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState } from 'react';
 
 const Portfolio = () => {
@@ -19,7 +20,8 @@ const Portfolio = () => {
                 { label: t('portfolio.demos.banking.metrics.requests'), value: '2,500+' }
             ],
             technologies: ['GPT-4', 'Arabic NLP', 'React', 'FastAPI'],
-            results: t('portfolio.demos.banking.results')
+            results: t('portfolio.demos.banking.results'),
+            link: '/chatbots'
         },
         {
             title: t('portfolio.demos.hr.title'),
@@ -32,7 +34,8 @@ const Portfolio = () => {
                 { label: t('portfolio.demos.hr.metrics.successRate'), value: '92%' }
             ],
             technologies: ['Zapier', 'Make', 'AI Screening', 'Integration APIs'],
-            results: t('portfolio.demos.hr.results')
+            results: t('portfolio.demos.hr.results'),
+            link: '/automation'
         },
         {
             title: t('portfolio.demos.documents.title'),
@@ -45,7 +48,8 @@ const Portfolio = () => {
                 { label: t('portfolio.demos.documents.metrics.processed'), value: '50k+' }
             ],
             technologies: ['LangChain', 'Vector DB', 'OCR', 'Semantic Search'],
-            results: t('portfolio.demos.documents.results')
+            results: t('portfolio.demos.documents.results'),
+            link: '/ai'
         }
     ];
 
@@ -173,10 +177,13 @@ const Portfolio = () => {
                                 <p className="text-sm text-gray-700">{demos[activeDemo].results}</p>
                             </div>
 
-                            <button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-200 flex items-center justify-center space-x-2">
-                                <span>{t('portfolio.viewDemo')}</span>
-                                <ExternalLink className="w-4 h-4" />
-                            </button>
+                            <Link href={demos[activeDemo].link}>
+                                <div className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-200 flex items-center justify-center space-x-2">
+                                    <span>{t('portfolio.viewDemo')}</span>
+                                    <ExternalLink className="w-4 h-4" />
+                                </div>
+                            </Link>
+
                         </div>
                     </div>
                 </div>
